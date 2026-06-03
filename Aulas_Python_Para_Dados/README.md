@@ -56,6 +56,8 @@ venv\Scripts\activate
 
 # 6. Desativar o ambiente virtual (quando terminar de trabalhar no projeto)
 deactivate
+```
+
 
 ### 📚 Principais Bibliotecas e Ferramentas (Ecossistema de Dados)
 Uma visão geral das bibliotecas e tecnologias essenciais apresentadas para a área de dados e desenvolvimento:
