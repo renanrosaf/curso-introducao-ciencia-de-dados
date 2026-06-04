@@ -9,3 +9,6 @@ Este repositório é dedicado à resolução, armazenamento e documentação dos
 
 ## Exercicio 2:
 ![Image](https://github.com/user-attachments/assets/5dfc1390-d9e9-4ee1-b0e4-156aeacc33a5)
+
+## Exercicio 4:
+![Image](https://github.com/user-attachments/assets/e780927a-dc22-4769-a495-e39119382fa2)

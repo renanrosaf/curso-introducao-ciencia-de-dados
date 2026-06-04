@@ -80,3 +80,52 @@ Uma visão geral das bibliotecas e tecnologias essenciais apresentadas para a á
 **Versionamento de Código**
 * **Git:** Sistema de controle de versão que registra o histórico de alterações do código e permite a ramificação (branches) do projeto.
 * **GitHub:** Plataforma em nuvem baseada no Git para hospedagem de código, facilitando o portfólio e a colaboração em equipe.
+
+
+## 📝 Aula 4: Estruturas de Dados, Módulos e Pacotes
+
+Nesta aula, abordamos as principais estruturas de dados nativas do Python e como estruturar e organizar projetos utilizando módulos e pacotes.
+
+### 🧱 Estruturas de Dados
+
+* **Listas:** Coleções de itens utilizadas para armazenar múltiplos valores em uma única variável.
+    * **Características:** São estruturas **mutáveis** (podem ser alteradas após a criação) e **ordenadas**, definidas utilizando colchetes `[]`.
+    * **Conceitos:** Definição, criação e acesso de elementos via índice.
+    * **Inserção:** Adição de elementos em posições específicas (`insert()`) ou ao final da lista (`append()`).
+    * **Remoção:** Exclusão de elementos pelo valor (`remove()`) ou pelo índice/último elemento (`pop()`).
+
+* **Tuplas:** Coleções de itens utilizadas para armazenar múltiplos valores, com funcionamento semelhante ao das listas.
+    * **Características:** São estruturas **ordenadas**, porém **imutáveis** (seus elementos não podem ser alterados após a criação), definidas utilizando parênteses `()`.
+    * **Conceitos:** Definição, criação, acesso de elementos via índice e criação de listas contendo tuplas.
+
+* **Dicionários:** Estruturas que mapeiam pares de **Chave-Valor**, definidas utilizando chaves `{}`.
+    * **Características:** Semelhantes a listas, mas os elementos não são acessados por índices numéricos, e sim por chaves únicas (que devem ser de um tipo imutável). Eles facilitam a busca, adição e remoção de itens de forma muito eficiente.
+    * **Conceitos:** Definição de chave/valor, conversão de lista de tuplas para dicionário (usando a função `dict()`), acesso aos valores, além da adição e remoção referenciando a chave.
+
+---
+
+### 📦 Organização e Reutilização de Código
+
+Mecanismos que permitem estruturar e reaproveitar o código de maneira eficiente:
+
+* **Módulo:** Um arquivo Python (extensão `.py`) que contém definições de funções, classes e variáveis que possuem relação entre si.
+* **Pacote:** Uma coleção de módulos organizados dentro de um diretório. Para que o Python reconheça esse diretório como um pacote, ele deve conter um arquivo chamado `__init__.py`.
+
+**Sintaxe Básica de Importação (`import`):**
+
+```python
+# Importando um módulo inteiro
+import meu_modulo
+
+# Importando um módulo e atribuindo um "apelido" (alias)
+import pandas as pd
+
+# Importando apenas uma função específica de dentro de um módulo
+from meu_modulo import minha_funcao
+
+# Importando apenas um módulo específico de dentro de um pacote
+import meu_pacote.meu_modulo
+
+# Importando uma função específica de um módulo que está dentro de um pacote
+from meu_pacote.meu_modulo import minha_funcao
+```
