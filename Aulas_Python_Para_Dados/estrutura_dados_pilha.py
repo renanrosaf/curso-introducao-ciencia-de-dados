@@ -1,4 +1,4 @@
-pilha=[] #Crio uma lista vazia
+pilha=[] #Variavel pilha recebe uma lista vazia
 
 #Uma lista nativa em Python ela possui o conceito de Pilha
 #Adicionando valores a pilha via método append
@@ -8,9 +8,11 @@ pilha.append(3)
 print(pilha)
 
 
-#Pilha=Last In First Out (LIFO)
+#Pilha= é do tipo Last In First Out (LIFO)
 #Ultima entrar  é o primeiro a sair da lista
-#comando pop remove elemento da pilha, nesse caso elimna o ultimo elemento a entrar na lista 
+
+
+#Comando pop remove elemento da pilha, nesse caso elimna o ultimo elemento a entrar na lista 
 #POP é first out
 pilha.pop()
 print(pilha)
