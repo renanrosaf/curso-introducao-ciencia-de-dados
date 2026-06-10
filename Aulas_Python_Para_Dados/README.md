@@ -129,3 +129,34 @@ import meu_pacote.meu_modulo
 # Importando uma função específica de um módulo que está dentro de um pacote
 from meu_pacote.meu_modulo import minha_funcao
 ```
+
+## 📝 Aulas 5 e 6: Tipos, Estruturas de Dados e Fluxos de Controle
+
+Nestas aulas, exploramos os tipos de dados fundamentais do Python, além de como organizar e manipular informações de forma eficiente através de estruturas lineares (Pilhas e Filas) e do controle de fluxo do código.
+
+### 🔡 Tipos de Dados em Python
+Uma visão geral dos principais tipos de dados e estruturas nativas suportadas pela linguagem:
+
+* **Números:**
+    * **Inteiros (`int`):** Números inteiros, sem casas decimais (ex: 1, 100, -5).
+    * **Números de Ponto Flutuante (`float`):** Números reais, com casas decimais (ex: 3.14, -0.5).
+    * **Números Complexos (`complex`):** Números com parte real e imaginária.
+* **Strings (`str`):** Sequências de caracteres utilizadas para representar textos.
+* **Booleanos (`bool`):** Representam valores lógicos: `True` (Verdadeiro) ou `False` (Falso).
+* **Listas (`list`):** Sequências mutáveis de elementos.
+* **Tuplas (`tuple`):** Sequências imutáveis de elementos.
+* **Conjuntos (`set`):** Coleções não ordenadas de elementos únicos (não permitem valores duplicados).
+* **Dicionários (`dict`):** Coleções de dados organizadas em pares de Chave-Valor.
+
+---
+
+### 🧱 Tipos de Estruturas de Dados: Pilhas e Filas
+Ambas são baseadas em listas para organizar informações, mas se diferenciam fortemente pela regra de entrada e saída dos elementos:
+
+* **Pilha (Stack):**
+    * **Comportamento:** Opera no modelo **LIFO** (*Last In, First Out* - O último elemento a entrar é o primeiro a sair).
+    * **No Python:** A estrutura de **Lista** nativa no formato padrão do Python se comporta exatamente como uma Pilha. Ao utilizarmos os métodos `append()` para adicionar e `pop()` para remover, estamos sempre operando no final da lista.
+
+* **Fila (Queue):**
+    * **Comportamento:** Opera no modelo **FIFO** (*First In, First Out* - O primeiro elemento a entrar é o primeiro a sair). É o mesmo funcionamento de uma fila de banco ou supermercado.
+    * **No Python:** Embora seja possível usar uma lista comum, geralmente utilizamos outras bibliotecas nativas (como `collections.deque`) para manipular filas de forma mais otimizada e eficiente computacionalmente.

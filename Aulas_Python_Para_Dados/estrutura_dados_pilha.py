@@ -8,14 +8,17 @@ pilha.append(3)
 print(pilha)
 
 
-#Pilha= é do tipo Last In First Out (LIFO)
-#Ultima entrar  é o primeiro a sair da lista
+#Pilha= é uma estrutura lista do tipo Last In First Out (LIFO)
+#Ultima elmento a entrar  é o primeiro elmento a sair da lista do tipo pilha
 
 
 #Comando pop remove elemento da pilha, nesse caso elimna o ultimo elemento a entrar na lista 
 #POP é first out
-pilha.pop()
+pilha.pop() #Nesse caso, remove o elemento 3, pois foi o ultimo elemento a entrar
 print(pilha)
+#LISTA NA FORMA PADRÃO É UMA ESTRUTURA DE PILHA
 
-#Fila: é do tipo FIFO (First In First Out)
-#E nesse caso preciso importar um módulo especifico, pois a fila não é uma estrutura nativa do site
+
+
+
+
