@@ -1,3 +1,5 @@
+#LISTA NA FORMA PADRÃO É UMA ESTRUTURA DE PILHA
+
 pilha=[] #Variavel pilha recebe uma lista vazia
 
 #Uma lista nativa em Python ela possui o conceito de Pilha
@@ -16,7 +18,7 @@ print(pilha)
 #POP é first out
 pilha.pop() #Nesse caso, remove o elemento 3, pois foi o ultimo elemento a entrar
 print(pilha)
-#LISTA NA FORMA PADRÃO É UMA ESTRUTURA DE PILHA
+
 
 
 
